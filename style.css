@@ -78,8 +78,6 @@ ul {
     background-color: aliceblue;
   }
   input[type=text],input[type=email],input[type=date],input[type=number],input[type=password]{
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -90,13 +88,12 @@ ul {
   }
   [type=submit]
   {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     background-color: black;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
+    text-align: center;
     border: none;
     border-radius: 4px;
     cursor: pointer;
